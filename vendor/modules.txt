@@ -1,0 +1,356 @@
+# cloud.google.com/go v0.26.0
+cloud.google.com/go/compute/metadata
+# github.com/BurntSushi/toml v0.3.1
+github.com/BurntSushi/toml
+# github.com/asaskevich/govalidator v0.0.0-20200428143746-21a406dcc535
+github.com/asaskevich/govalidator
+# github.com/aws/aws-sdk-go v1.31.4
+github.com/aws/aws-sdk-go/aws
+github.com/aws/aws-sdk-go/aws/awserr
+github.com/aws/aws-sdk-go/aws/awsutil
+github.com/aws/aws-sdk-go/aws/client
+github.com/aws/aws-sdk-go/aws/client/metadata
+github.com/aws/aws-sdk-go/aws/corehandlers
+github.com/aws/aws-sdk-go/aws/credentials
+github.com/aws/aws-sdk-go/aws/credentials/ec2rolecreds
+github.com/aws/aws-sdk-go/aws/credentials/endpointcreds
+github.com/aws/aws-sdk-go/aws/credentials/processcreds
+github.com/aws/aws-sdk-go/aws/credentials/stscreds
+github.com/aws/aws-sdk-go/aws/csm
+github.com/aws/aws-sdk-go/aws/defaults
+github.com/aws/aws-sdk-go/aws/ec2metadata
+github.com/aws/aws-sdk-go/aws/endpoints
+github.com/aws/aws-sdk-go/aws/request
+github.com/aws/aws-sdk-go/aws/session
+github.com/aws/aws-sdk-go/aws/signer/v4
+github.com/aws/aws-sdk-go/internal/context
+github.com/aws/aws-sdk-go/internal/ini
+github.com/aws/aws-sdk-go/internal/sdkio
+github.com/aws/aws-sdk-go/internal/sdkmath
+github.com/aws/aws-sdk-go/internal/sdkrand
+github.com/aws/aws-sdk-go/internal/sdkuri
+github.com/aws/aws-sdk-go/internal/shareddefaults
+github.com/aws/aws-sdk-go/internal/strings
+github.com/aws/aws-sdk-go/internal/sync/singleflight
+github.com/aws/aws-sdk-go/private/protocol
+github.com/aws/aws-sdk-go/private/protocol/json/jsonutil
+github.com/aws/aws-sdk-go/private/protocol/query
+github.com/aws/aws-sdk-go/private/protocol/query/queryutil
+github.com/aws/aws-sdk-go/private/protocol/rest
+github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil
+github.com/aws/aws-sdk-go/service/sns
+github.com/aws/aws-sdk-go/service/sts
+github.com/aws/aws-sdk-go/service/sts/stsiface
+# github.com/dgrijalva/jwt-go v3.2.0+incompatible
+github.com/dgrijalva/jwt-go
+# github.com/disintegration/imaging v1.6.2
+github.com/disintegration/imaging
+# github.com/gin-gonic/gin v1.6.3
+## explicit
+# github.com/go-chi/chi v4.1.1+incompatible
+## explicit
+github.com/go-chi/chi
+github.com/go-chi/chi/middleware
+# github.com/go-sql-driver/mysql v1.5.0
+github.com/go-sql-driver/mysql
+# github.com/golang/protobuf v1.4.2
+github.com/golang/protobuf/proto
+github.com/golang/protobuf/ptypes
+github.com/golang/protobuf/ptypes/any
+github.com/golang/protobuf/ptypes/duration
+github.com/golang/protobuf/ptypes/timestamp
+# github.com/google/go-github v17.0.0+incompatible
+## explicit
+github.com/google/go-github/github
+# github.com/google/go-querystring v1.0.0
+github.com/google/go-querystring/query
+# github.com/gorilla/context v1.1.1
+github.com/gorilla/context
+# github.com/gorilla/schema v1.1.0
+github.com/gorilla/schema
+# github.com/gorilla/securecookie v1.1.1
+github.com/gorilla/securecookie
+# github.com/gorilla/sessions v1.2.0
+github.com/gorilla/sessions
+# github.com/gosimple/slug v1.9.0
+github.com/gosimple/slug
+# github.com/headzoo/surf v1.0.0
+## explicit
+# github.com/headzoo/ut v0.0.0-20181013193318-a13b5a7a02ca
+## explicit
+# github.com/jinzhu/configor v1.2.0
+## explicit
+github.com/jinzhu/configor
+# github.com/jinzhu/copier v0.0.0-20190924061706-b57f9002281a
+## explicit
+github.com/jinzhu/copier
+# github.com/jinzhu/gorm v1.9.12
+## explicit
+github.com/jinzhu/gorm
+github.com/jinzhu/gorm/dialects/mysql
+github.com/jinzhu/gorm/dialects/postgres
+# github.com/jinzhu/inflection v1.0.0
+github.com/jinzhu/inflection
+# github.com/jinzhu/now v1.0.1
+github.com/jinzhu/now
+# github.com/jmespath/go-jmespath v0.3.0
+github.com/jmespath/go-jmespath
+# github.com/jteeuwen/go-bindata v3.0.7+incompatible
+## explicit
+github.com/jteeuwen/go-bindata
+# github.com/lib/pq v1.1.1
+github.com/lib/pq
+github.com/lib/pq/hstore
+github.com/lib/pq/oid
+github.com/lib/pq/scram
+# github.com/microcosm-cc/bluemonday v1.0.2
+github.com/microcosm-cc/bluemonday
+# github.com/mrjones/oauth v0.0.0-20190623134757-126b35219450
+## explicit
+github.com/mrjones/oauth
+# github.com/qor/action_bar v0.0.0-20190314070413-136e5e2c5b8c
+## explicit
+github.com/qor/action_bar
+# github.com/qor/admin v0.0.0-20200315024928-877b98a68a6f
+## explicit
+github.com/qor/admin
+# github.com/qor/assetfs v0.0.0-20170713023933-ff57fdc13a14
+## explicit
+github.com/qor/assetfs
+# github.com/qor/audited v0.0.0-20171228121055-b52c9c2f0571
+## explicit
+github.com/qor/audited
+# github.com/qor/auth v0.0.0-20190603071357-709ba0ce943b
+## explicit
+github.com/qor/auth
+github.com/qor/auth/auth_identity
+github.com/qor/auth/authority
+github.com/qor/auth/claims
+github.com/qor/auth/providers/facebook
+github.com/qor/auth/providers/github
+github.com/qor/auth/providers/google
+github.com/qor/auth/providers/password
+github.com/qor/auth/providers/password/encryptor
+github.com/qor/auth/providers/password/encryptor/bcrypt_encryptor
+github.com/qor/auth/providers/twitter
+# github.com/qor/auth_themes v0.0.0-20190103025702-000e8ac9b42d
+## explicit
+github.com/qor/auth_themes/clean
+# github.com/qor/cache v0.0.0-20171031031927-c9d48d1f13ba
+## explicit
+github.com/qor/cache
+github.com/qor/cache/memory
+# github.com/qor/i18n v0.0.0-20181014061908-f7206d223bcd
+## explicit
+github.com/qor/i18n
+github.com/qor/i18n/backends/database
+github.com/qor/i18n/backends/yaml
+# github.com/qor/l10n v0.0.0-20181031091737-2ca95fb3b4dd
+## explicit
+github.com/qor/l10n
+# github.com/qor/mailer v0.0.0-20180329083248-0555e49f99ac
+## explicit
+github.com/qor/mailer
+github.com/qor/mailer/logger
+# github.com/qor/media v0.0.0-20191022071353-19cf289e17d4
+## explicit
+github.com/qor/media
+github.com/qor/media/asset_manager
+github.com/qor/media/media_library
+github.com/qor/media/oss
+# github.com/qor/middlewares v0.0.0-20170822143614-781378b69454
+## explicit
+github.com/qor/middlewares
+# github.com/qor/oss v0.0.0-20191031055114-aef9ba66bf76
+github.com/qor/oss
+github.com/qor/oss/filesystem
+# github.com/qor/publish v0.0.0-20181014061411-abfbacee9e0d
+## explicit
+github.com/qor/publish
+# github.com/qor/publish2 v0.0.0-20200106024649-fcb930aa85ac
+## explicit
+github.com/qor/publish2
+# github.com/qor/qor v0.0.0-20200224122013-457d2e3f50e1
+## explicit
+github.com/qor/qor
+github.com/qor/qor/resource
+github.com/qor/qor/utils
+# github.com/qor/redirect_back v0.0.0-20170907030740-b4161ed6f848
+## explicit
+github.com/qor/redirect_back
+# github.com/qor/render v1.1.1
+## explicit
+github.com/qor/render
+# github.com/qor/responder v0.0.0-20171031032654-b6def473574f
+github.com/qor/responder
+# github.com/qor/roles v0.0.0-20171127035124-d6375609fe3e
+## explicit
+github.com/qor/roles
+# github.com/qor/serializable_meta v0.0.0-20180510060738-5fd8542db417
+github.com/qor/serializable_meta
+# github.com/qor/session v0.0.0-20170907035918-8206b0adab70
+## explicit
+github.com/qor/session
+github.com/qor/session/gorilla
+github.com/qor/session/manager
+# github.com/qor/sorting v0.0.0-20200226160341-65007102872a
+## explicit
+github.com/qor/sorting
+# github.com/qor/validations v0.0.0-20171228122639-f364bca61b46
+## explicit
+github.com/qor/validations
+# github.com/qor/wildcard_router v0.0.0-20171031035524-56710e5bb5a4
+## explicit
+github.com/qor/wildcard_router
+# github.com/qor/worker v0.0.0-20190805090529-35a245417f70
+## explicit
+github.com/qor/worker
+# github.com/rainycape/unidecode v0.0.0-20150907023854-cb7f23ec59be
+github.com/rainycape/unidecode
+# github.com/sfreiberg/gotwilio v0.0.0-20200424172909-47a95c1c632a
+github.com/sfreiberg/gotwilio
+# github.com/theplant/cldr v0.0.0-20190423050709-9f76f7ce4ee8
+github.com/theplant/cldr
+# github.com/tidwall/gjson v1.6.0
+github.com/tidwall/gjson
+# github.com/tidwall/match v1.0.1
+github.com/tidwall/match
+# github.com/tidwall/pretty v1.0.0
+github.com/tidwall/pretty
+# github.com/ttacon/builder v0.0.0-20170518171403-c099f663e1c2
+github.com/ttacon/builder
+# github.com/ttacon/libphonenumber v1.1.0
+## explicit
+github.com/ttacon/libphonenumber
+# github.com/ttlv/sms v0.0.0-20200523072607-c3c4ab0b5bed
+## explicit
+github.com/ttlv/sms
+github.com/ttlv/sms/config
+github.com/ttlv/sms/provider/amazon
+github.com/ttlv/sms/provider/chuanglan
+github.com/ttlv/sms/provider/emay
+github.com/ttlv/sms/provider/twilio
+github.com/ttlv/sms/provider/yunpian
+# github.com/unrolled/render v1.0.3
+## explicit
+github.com/unrolled/render
+# golang.org/x/crypto v0.0.0-20191205180655-e7c4368fe9dd
+golang.org/x/crypto/bcrypt
+golang.org/x/crypto/blowfish
+# golang.org/x/image v0.0.0-20191009234506-e7c1f5e7dbb8
+golang.org/x/image/bmp
+golang.org/x/image/ccitt
+golang.org/x/image/tiff
+golang.org/x/image/tiff/lzw
+# golang.org/x/net v0.0.0-20200520182314-0ba52f642ac2
+golang.org/x/net/context
+golang.org/x/net/context/ctxhttp
+golang.org/x/net/html
+golang.org/x/net/html/atom
+golang.org/x/net/http/httpguts
+golang.org/x/net/http2
+golang.org/x/net/http2/hpack
+golang.org/x/net/idna
+golang.org/x/net/internal/timeseries
+golang.org/x/net/trace
+# golang.org/x/oauth2 v0.0.0-20180821212333-d2e6202438be
+golang.org/x/oauth2
+golang.org/x/oauth2/facebook
+golang.org/x/oauth2/google
+golang.org/x/oauth2/internal
+golang.org/x/oauth2/jws
+golang.org/x/oauth2/jwt
+# golang.org/x/sys v0.0.0-20200519105757-fe76b779f299
+golang.org/x/sys/internal/unsafeheader
+golang.org/x/sys/unix
+# golang.org/x/text v0.3.2
+golang.org/x/text/secure/bidirule
+golang.org/x/text/transform
+golang.org/x/text/unicode/bidi
+golang.org/x/text/unicode/norm
+# google.golang.org/appengine v1.4.0
+google.golang.org/appengine
+google.golang.org/appengine/internal
+google.golang.org/appengine/internal/app_identity
+google.golang.org/appengine/internal/base
+google.golang.org/appengine/internal/datastore
+google.golang.org/appengine/internal/log
+google.golang.org/appengine/internal/modules
+google.golang.org/appengine/internal/remote_api
+google.golang.org/appengine/internal/urlfetch
+google.golang.org/appengine/urlfetch
+# google.golang.org/genproto v0.0.0-20190819201941-24fa4b261c55
+google.golang.org/genproto/googleapis/rpc/status
+# google.golang.org/grpc v1.29.1
+google.golang.org/grpc
+google.golang.org/grpc/attributes
+google.golang.org/grpc/backoff
+google.golang.org/grpc/balancer
+google.golang.org/grpc/balancer/base
+google.golang.org/grpc/balancer/roundrobin
+google.golang.org/grpc/binarylog/grpc_binarylog_v1
+google.golang.org/grpc/codes
+google.golang.org/grpc/connectivity
+google.golang.org/grpc/credentials
+google.golang.org/grpc/credentials/internal
+google.golang.org/grpc/encoding
+google.golang.org/grpc/encoding/proto
+google.golang.org/grpc/grpclog
+google.golang.org/grpc/internal
+google.golang.org/grpc/internal/backoff
+google.golang.org/grpc/internal/balancerload
+google.golang.org/grpc/internal/binarylog
+google.golang.org/grpc/internal/buffer
+google.golang.org/grpc/internal/channelz
+google.golang.org/grpc/internal/envconfig
+google.golang.org/grpc/internal/grpclog
+google.golang.org/grpc/internal/grpcrand
+google.golang.org/grpc/internal/grpcsync
+google.golang.org/grpc/internal/grpcutil
+google.golang.org/grpc/internal/resolver/dns
+google.golang.org/grpc/internal/resolver/passthrough
+google.golang.org/grpc/internal/status
+google.golang.org/grpc/internal/syscall
+google.golang.org/grpc/internal/transport
+google.golang.org/grpc/keepalive
+google.golang.org/grpc/metadata
+google.golang.org/grpc/naming
+google.golang.org/grpc/peer
+google.golang.org/grpc/resolver
+google.golang.org/grpc/serviceconfig
+google.golang.org/grpc/stats
+google.golang.org/grpc/status
+google.golang.org/grpc/tap
+# google.golang.org/protobuf v1.23.0
+google.golang.org/protobuf/encoding/prototext
+google.golang.org/protobuf/encoding/protowire
+google.golang.org/protobuf/internal/descfmt
+google.golang.org/protobuf/internal/descopts
+google.golang.org/protobuf/internal/detrand
+google.golang.org/protobuf/internal/encoding/defval
+google.golang.org/protobuf/internal/encoding/messageset
+google.golang.org/protobuf/internal/encoding/tag
+google.golang.org/protobuf/internal/encoding/text
+google.golang.org/protobuf/internal/errors
+google.golang.org/protobuf/internal/fieldnum
+google.golang.org/protobuf/internal/fieldsort
+google.golang.org/protobuf/internal/filedesc
+google.golang.org/protobuf/internal/filetype
+google.golang.org/protobuf/internal/flags
+google.golang.org/protobuf/internal/genname
+google.golang.org/protobuf/internal/impl
+google.golang.org/protobuf/internal/mapsort
+google.golang.org/protobuf/internal/pragma
+google.golang.org/protobuf/internal/set
+google.golang.org/protobuf/internal/strs
+google.golang.org/protobuf/internal/version
+google.golang.org/protobuf/proto
+google.golang.org/protobuf/reflect/protoreflect
+google.golang.org/protobuf/reflect/protoregistry
+google.golang.org/protobuf/runtime/protoiface
+google.golang.org/protobuf/runtime/protoimpl
+google.golang.org/protobuf/types/known/anypb
+google.golang.org/protobuf/types/known/durationpb
+google.golang.org/protobuf/types/known/timestamppb
+# gopkg.in/yaml.v2 v2.3.0
+gopkg.in/yaml.v2
