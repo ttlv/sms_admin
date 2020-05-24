@@ -1,5 +1,3 @@
-# cloud.google.com/go v0.26.0
-cloud.google.com/go/compute/metadata
 # github.com/BurntSushi/toml v0.3.1
 github.com/BurntSushi/toml
 # github.com/asaskevich/govalidator v0.0.0-20200428143746-21a406dcc535
@@ -51,19 +49,26 @@ github.com/disintegration/imaging
 ## explicit
 github.com/go-chi/chi
 github.com/go-chi/chi/middleware
+# github.com/go-kit/kit v0.9.0
+github.com/go-kit/kit/log
+github.com/go-kit/kit/log/level
+# github.com/go-logfmt/logfmt v0.4.0
+github.com/go-logfmt/logfmt
 # github.com/go-sql-driver/mysql v1.5.0
 github.com/go-sql-driver/mysql
+# github.com/goji/httpauth v0.0.0-20160601135302-2da839ab0f4d
+## explicit
+github.com/goji/httpauth
 # github.com/golang/protobuf v1.4.2
 github.com/golang/protobuf/proto
 github.com/golang/protobuf/ptypes
 github.com/golang/protobuf/ptypes/any
 github.com/golang/protobuf/ptypes/duration
 github.com/golang/protobuf/ptypes/timestamp
-# github.com/google/go-github v17.0.0+incompatible
-## explicit
-github.com/google/go-github/github
 # github.com/google/go-querystring v1.0.0
 github.com/google/go-querystring/query
+# github.com/google/uuid v1.0.0
+github.com/google/uuid
 # github.com/gorilla/context v1.1.1
 github.com/gorilla/context
 # github.com/gorilla/schema v1.1.0
@@ -74,6 +79,10 @@ github.com/gorilla/securecookie
 github.com/gorilla/sessions
 # github.com/gosimple/slug v1.9.0
 github.com/gosimple/slug
+# github.com/hashicorp/errwrap v1.0.0
+github.com/hashicorp/errwrap
+# github.com/hashicorp/go-multierror v1.0.0
+github.com/hashicorp/go-multierror
 # github.com/headzoo/surf v1.0.0
 ## explicit
 # github.com/headzoo/ut v0.0.0-20181013193318-a13b5a7a02ca
@@ -93,11 +102,20 @@ github.com/jinzhu/gorm/dialects/postgres
 github.com/jinzhu/inflection
 # github.com/jinzhu/now v1.0.1
 github.com/jinzhu/now
+# github.com/jjeffery/errors v1.0.3
+github.com/jjeffery/errors
+# github.com/jjeffery/kv v0.8.1
+github.com/jjeffery/kv
+github.com/jjeffery/kv/internal/logfmt
+github.com/jjeffery/kv/internal/parse
+github.com/jjeffery/kv/internal/pool
 # github.com/jmespath/go-jmespath v0.3.0
 github.com/jmespath/go-jmespath
 # github.com/jteeuwen/go-bindata v3.0.7+incompatible
 ## explicit
 github.com/jteeuwen/go-bindata
+# github.com/kr/logfmt v0.0.0-20140226030751-b84e30acd515
+github.com/kr/logfmt
 # github.com/lib/pq v1.1.1
 github.com/lib/pq
 github.com/lib/pq/hstore
@@ -105,9 +123,10 @@ github.com/lib/pq/oid
 github.com/lib/pq/scram
 # github.com/microcosm-cc/bluemonday v1.0.2
 github.com/microcosm-cc/bluemonday
-# github.com/mrjones/oauth v0.0.0-20190623134757-126b35219450
-## explicit
-github.com/mrjones/oauth
+# github.com/pborman/uuid v1.2.0
+github.com/pborman/uuid
+# github.com/pkg/errors v0.9.1
+github.com/pkg/errors
 # github.com/qor/action_bar v0.0.0-20190314070413-136e5e2c5b8c
 ## explicit
 github.com/qor/action_bar
@@ -126,13 +145,9 @@ github.com/qor/auth
 github.com/qor/auth/auth_identity
 github.com/qor/auth/authority
 github.com/qor/auth/claims
-github.com/qor/auth/providers/facebook
-github.com/qor/auth/providers/github
-github.com/qor/auth/providers/google
 github.com/qor/auth/providers/password
 github.com/qor/auth/providers/password/encryptor
 github.com/qor/auth/providers/password/encryptor/bcrypt_encryptor
-github.com/qor/auth/providers/twitter
 # github.com/qor/auth_themes v0.0.0-20190103025702-000e8ac9b42d
 ## explicit
 github.com/qor/auth_themes/clean
@@ -207,8 +222,17 @@ github.com/qor/wildcard_router
 github.com/qor/worker
 # github.com/rainycape/unidecode v0.0.0-20150907023854-cb7f23ec59be
 github.com/rainycape/unidecode
+# github.com/rs/cors v1.7.0
+github.com/rs/cors
 # github.com/sfreiberg/gotwilio v0.0.0-20200424172909-47a95c1c632a
 github.com/sfreiberg/gotwilio
+# github.com/theplant/appkit v0.0.0-20200507061322-07c9f4c1db0d
+## explicit
+github.com/theplant/appkit/contexts
+github.com/theplant/appkit/contexts/trace
+github.com/theplant/appkit/kerrs
+github.com/theplant/appkit/log
+github.com/theplant/appkit/server
 # github.com/theplant/cldr v0.0.0-20190423050709-9f76f7ce4ee8
 github.com/theplant/cldr
 # github.com/tidwall/gjson v1.6.0
@@ -222,6 +246,9 @@ github.com/ttacon/builder
 # github.com/ttacon/libphonenumber v1.1.0
 ## explicit
 github.com/ttacon/libphonenumber
+# github.com/ttlv/common_utils v0.0.0-20200523040620-b3352dd2581f
+## explicit
+github.com/ttlv/common_utils/readonly
 # github.com/ttlv/sms v0.0.0-20200523072607-c3c4ab0b5bed
 ## explicit
 github.com/ttlv/sms
@@ -244,7 +271,6 @@ golang.org/x/image/tiff
 golang.org/x/image/tiff/lzw
 # golang.org/x/net v0.0.0-20200520182314-0ba52f642ac2
 golang.org/x/net/context
-golang.org/x/net/context/ctxhttp
 golang.org/x/net/html
 golang.org/x/net/html/atom
 golang.org/x/net/http/httpguts
@@ -253,13 +279,6 @@ golang.org/x/net/http2/hpack
 golang.org/x/net/idna
 golang.org/x/net/internal/timeseries
 golang.org/x/net/trace
-# golang.org/x/oauth2 v0.0.0-20180821212333-d2e6202438be
-golang.org/x/oauth2
-golang.org/x/oauth2/facebook
-golang.org/x/oauth2/google
-golang.org/x/oauth2/internal
-golang.org/x/oauth2/jws
-golang.org/x/oauth2/jwt
 # golang.org/x/sys v0.0.0-20200519105757-fe76b779f299
 golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/unix
@@ -268,17 +287,6 @@ golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
-# google.golang.org/appengine v1.4.0
-google.golang.org/appengine
-google.golang.org/appengine/internal
-google.golang.org/appengine/internal/app_identity
-google.golang.org/appengine/internal/base
-google.golang.org/appengine/internal/datastore
-google.golang.org/appengine/internal/log
-google.golang.org/appengine/internal/modules
-google.golang.org/appengine/internal/remote_api
-google.golang.org/appengine/internal/urlfetch
-google.golang.org/appengine/urlfetch
 # google.golang.org/genproto v0.0.0-20190819201941-24fa4b261c55
 google.golang.org/genproto/googleapis/rpc/status
 # google.golang.org/grpc v1.29.1

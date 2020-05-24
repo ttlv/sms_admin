@@ -1,0 +1,8 @@
+export SMS_ADDRESS="localhost:6002"
+export SMS_DB="sms:123@tcp(localhost:7100)/sms_dev?parseTime=True&loc=Local"
+export SMS_AMQPDIAL="amqp://guest:guest@localhost:7672/"
+export SMS_APITOKEN="a5s7gp7wz6csnynmk4zkxjjpmy9ouy"
+export SMS_APIKEY="u53wxqbaqxdxvkvc24e4kfhko8hftz"
+export SMS_TwilioCallBack="https://6fc93ccc.ngrok.io/twilio"
+export SMS_YunPianCallBack="https://6fc93ccc.ngrok.io/yunpian"
+export SMS_Port="0.0.0.0:6004"

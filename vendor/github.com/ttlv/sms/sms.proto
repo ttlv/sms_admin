@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package sms;
+
+message SendParams {
+  string brand = 1;
+  string country = 2;
+  string phone = 3;
+  string content = 4;
+}
+
+message SendResp {
+  string uid = 1;
+  string error = 2;
+}
+
+service Sms {
+  rpc Send (SendParams) returns (SendResp);
+}

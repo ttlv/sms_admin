@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/qor/qor-example/config/application"
+	"github.com/ttlv/sms_admin/config/application"
 )
 
 // New new home app
