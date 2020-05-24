@@ -13,6 +13,7 @@ import (
 	"github.com/ttlv/sms_admin/config/application"
 	"github.com/ttlv/sms_admin/config/bindatafs"
 	"github.com/ttlv/sms_admin/config/db"
+	"github.com/ttlv/sms_admin/models"
 	"net/http"
 	"path/filepath"
 )
@@ -30,6 +31,7 @@ func NewServer() (http.Handler, *admin.Admin) {
 			DB:     db.DB,
 		})
 	)
+	db.DB.AutoMigrate(&models.SmsBrand{}, &models.SmsRecord{}, &models.SmsAvailable{}, &models.SmsFailureRecord{}, &models.SmsSetting{})
 	Router.Use(func(handler http.Handler) http.Handler {
 		return http.HandlerFunc(func(w http.ResponseWriter, req *http.Request) {
 			req.Header.Del("Authorization")

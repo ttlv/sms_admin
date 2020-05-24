@@ -1,0 +1,14 @@
+# Named volume required
+# `$ docker volume create -d local-persist -o mountpoint=/mnt/xxx-data --name=xxx-data`
+version: '3.4'
+services:
+  mysql:
+    image: mysql:5.7
+    command: mysqld --character-set-server=utf8 --collation-server=utf8_unicode_ci --init-connect='ALTER DATABASE sms_dev CHARACTER SET utf8;'
+    environment:
+      - "MYSQL_ROOT_PASSWORD=123"
+      - "MYSQL_USER=sms"
+      - "MYSQL_PASSWORD=123"
+      - "MYSQL_DATABASE=sms_dev"
+    ports:
+      - "7100:3306"
