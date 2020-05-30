@@ -6,6 +6,7 @@ build:
 	@rm sms-admin
 
 push: build
-    @$(eval REV := $(shell git rev-parse HEAD|cut -c 1-8))
-    @docker tag gopherlv/sms-admin gopherlv/sms_service:sms-admin-$(REV)
-    @docker push gopherlv/sms_service:sms-admin-$(REV)
+	@$(eval REV := $(shell git rev-parse HEAD|cut -c 1-8))
+	@docker tag gopherlv/sms-admin gopherlv/sms_service:sms-admin-$(REV)
+	@docker push gopherlv/sms_service:sms-admin-$(REV)
+
