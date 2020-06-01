@@ -90,11 +90,11 @@ func ConfigBrandRes(application *application.Application) {
 		Modes:    []string{"edit"},
 	})
 
-	res.IndexAttrs("Name", "TwilioAccountsID", "TwilioAuthToken", "TwilioSendNumber", "YunPianAppKey", "EmayAppID", "EmayAppKey", "AWSAccessKeyID", "AWSSecretAccessKey", "AWSRegion", "ChuangLanAccount", "ChuangLanPassword")
+	res.IndexAttrs("Name", "Token", "TwilioAccountsID", "TwilioAuthToken", "TwilioSendNumber", "YunPianAppKey", "EmayAppID", "EmayAppKey", "AWSAccessKeyID", "AWSSecretAccessKey", "AWSRegion", "ChuangLanAccount", "ChuangLanPassword")
 	res.NewAttrs(&admin.Section{
 		Title: "Base Config",
 		Rows: [][]string{
-			{"Name"},
+			{"Name", "Token"},
 		},
 	},
 		&admin.Section{
@@ -133,5 +133,4 @@ func ConfigBrandRes(application *application.Application) {
 			},
 		})
 	res.EditAttrs(res.NewAttrs())
-
 }

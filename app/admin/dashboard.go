@@ -5,7 +5,7 @@ import (
 )
 
 // SetupDashboard setup dashboard
-func SetupDashboard(Admin *admin.Admin) {
-	// Add Dashboard
-	Admin.AddMenu(&admin.Menu{Name: "Dashboard", Link: "/admin", Priority: 1})
-}
+// hide dashboard
+//func SetupDashboard(Admin *admin.Admin) {
+//	Admin.AddMenu(&admin.Menu{Name: "Dashboard", Link: "/admin", Priority: 1})
+//}
