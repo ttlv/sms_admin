@@ -2,6 +2,7 @@ package utils
 
 import (
 	"encoding/json"
+
 	"github.com/jinzhu/gorm"
 	qor_admin "github.com/qor/admin"
 	"github.com/ttacon/libphonenumber"
@@ -24,7 +25,7 @@ func ConstructParam(actionArgument *qor_admin.ActionArgument) *sms.SendParams {
 	country, phone, _ := ParsePhoneNumber(actionArgument.Argument.(*models.SendParamForm).Phone)
 	params := sms.SendParams{
 		Country: country,
-		Brand:   actionArgument.FindSelectedRecords()[0].(*sms.SmsBrand).Name,
+		Brand:   actionArgument.FindSelectedRecords()[0].(*models.SmsBrand).Name,
 		Phone:   phone,
 		Content: actionArgument.Argument.(*models.SendParamForm).Content,
 	}
